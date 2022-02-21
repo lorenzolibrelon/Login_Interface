@@ -1,0 +1,42 @@
+@import url('https://fonts.google.com/specimen/Roboto?query=Roboto#standard-styles');
+body {
+    font-family: Roboto, sans-serif;
+    background: rgb(30, 37, 43);
+}
+
+.login-screen { 
+    background-color: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 80px;
+    border-radius: 15px;
+    color: white;
+}
+
+input {
+    padding: 15px;
+    border: 0;
+    font-family: Roboto, sans-serif;
+    outline: none;
+    font-size: 15px;   
+    border-radius: 10px;
+}
+
+button {
+    background-color: deepskyblue;
+    border: 0;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-family: Roboto, sans-serif;
+}
+
+button:hover {
+    background-color: dodgerblue;
+    cursor: pointer;  
+    transition: 0.5s;
+}
